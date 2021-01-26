@@ -33,35 +33,16 @@ nav{
     font-weight: bolder;
 }
 
-.nav-links{
-    display: flex;
-    justify-content: space-around;
-    width: 40%;
-}
-
-
-
-.nav-links li{
-    list-style: none;
-}
-
-.nav-links a{
+.nav-link:checked{
     color: black;
-    text-decoration: none;
-    letter-spacing: 3px;
-    font-weight: bold;
-    font-size: 14px;
+    font-weight: bolder;
 }
 
-.nav-links a:hover{
-    color: white;
-    background-color: black;
-    text-decoration: none;
-    letter-spacing: 3px;
-    font-weight: bold;
-    font-size: 14px;
-    margin-bottom: 50px;
-}
+
+
+
+
+
 
 .risk-everything{
     background-image: url("img/background.jpeg");
